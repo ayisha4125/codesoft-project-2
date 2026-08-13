@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smokehouse & Bun — Burger Week</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top">
+      <span class="logo-mark" aria-hidden="true">
+        <span class="bun-top"></span>
+        <span class="patty"></span>
+        <span class="bun-bottom"></span>
+      </span>
+      <span class="logo-text">Smokehouse<em>&amp;</em>Bun</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navList">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#choose">Combos</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-contact">
+      <span class="tag">Order by phone</span>
+      <a href="tel:+18005550199" class="phone">+1 (800) 555‑0199</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">7 days · flame‑grilled · 100% fresh</p>
+      <h1 class="hero-heading">
+        BURGER<br><span>WEEK</span>
+      </h1>
+      <p class="hero-sub">Double patties, smoked cheddar, brioche buns baked at dawn. One glorious week, stacked in your favor.</p>
+      <div class="hero-cta-row">
+        <a href="#menu" class="btn btn-primary">Order Now</a>
+        <a href="#reserve" class="btn btn-ghost">Book a Table</a>
+      </div>
+      <ul class="hero-stats">
+        <li><strong>18</strong><span>signature burgers</span></li>
+        <li><strong>12<small>min</small></strong><span>avg. grill time</span></li>
+        <li><strong>4.9</strong><span>guest rating</span></li>
+      </ul>
+    </div>
+
+    <div class="hero-art">
+      <div class="price-badge">
+        <span class="price-badge-top">from</span>
+        <span class="price-badge-amount">$8<small>.99</small></span>
+        <span class="price-badge-bottom">this week only</span>
+      </div>
+      <img class="hero-img" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1000&q=80&auto=format&fit=crop" alt="Double smoked cheddar burger stacked high with lettuce and tomato">
+      <div class="hero-blob" aria-hidden="true"></div>
+    </div>
+  </div>
+  <div class="edge-divider" aria-hidden="true"></div>
+</section>
+
+<!-- ============ FEATURED / POPULAR BURGERS ============ -->
+<section class="section" id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Fan favorites</p>
+      <h2>Popular This Week</h2>
+      <p class="section-sub">The lineup our regulars order on repeat — grilled to order, never frozen.</p>
+    </div>
+
+    <div class="card-grid menu-grid">
+      <article class="food-card">
+        <div class="food-card-img">
+          <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=700&q=80&auto=format&fit=crop" alt="Smoky BBQ bacon burger with crispy onions">
+          <span class="chip chip-hot">Chef's pick</span>
+        </div>
+        <div class="food-card-body">
+          <div class="food-card-title">
+            <h3>Smoky BBQ Bacon</h3>
+            <span class="price">$10.50</span>
+          </div>
+          <p>Applewood bacon, smoked gouda, crispy onions, bourbon BBQ glaze.</p>
+        </div>
+      </article>
+
+      <article class="food-card">
+        <div class="food-card-img">
+          <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=700&q=80&auto=format&fit=crop" alt="Classic double cheeseburger with sesame bun">
+          <span class="chip">Best seller</span>
+        </div>
+        <div class="food-card-body">
+          <div class="food-card-title">
+            <h3>Double Smash Classic</h3>
+            <span class="price">$9.25</span>
+          </div>
+          <p>Two smashed patties, American cheese, pickles, house smash sauce.</p>
+        </div>
+      </article>
+
+      <article class="food-card">
+        <div class="food-card-img">
+          <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=700&q=80&auto=format&fit=crop" alt="Spicy jalapeno burger with pepper jack cheese">
+          <span class="chip chip-hot">Spicy</span>
+        </div>
+        <div class="food-card-body">
+          <div class="food-card-title">
+            <h3>Firehouse Jalapeño</h3>
+            <span class="price">$10.95</span>
+          </div>
+          <p>Pepper jack, candied jalapeños, chipotle mayo, crunchy slaw.</p>
+        </div>
+      </article>
+
+      <article class="food-card">
+        <div class="food-card-img">
+          <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=700&q=80&auto=format&fit=crop" alt="Mushroom swiss burger with caramelized onions">
+          <span class="chip">Vegetarian option</span>
+        </div>
+        <div class="food-card-body">
+          <div class="food-card-title">
+            <h3>Mushroom Swiss</h3>
+            <span class="price">$9.75</span>
+          </div>
+          <p>Roasted portobello, melted swiss, caramelized onions, herb aioli.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHOOSE & ENJOY ============ -->
+<section class="section section-tint" id="choose">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Build your order</p>
+      <h2>Choose &amp; Enjoy</h2>
+      <p class="section-sub">Three easy ways to fuel up, whatever kind of hungry you brought with you.</p>
+    </div>
+
+    <div class="card-grid choose-grid">
+      <article class="pick-card">
+        <div class="pick-card-img">
+          <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80&auto=format&fit=crop" alt="Solo burger meal with fries">
+        </div>
+        <h3>Solo Stack</h3>
+        <p>One signature burger, seasoned fries, and a fountain drink.</p>
+        <span class="price">$12.99</span>
+        <a href="#reserve" class="btn btn-outline">Order Solo</a>
+      </article>
+
+      <article class="pick-card pick-card-featured">
+        <span class="ribbon">Most popular</span>
+        <div class="pick-card-img">
+          <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&q=80&auto=format&fit=crop" alt="Double burger meal for two people">
+        </div>
+        <h3>Double Trouble</h3>
+        <p>Two burgers, two fries, two drinks — built for sharing (or not).</p>
+        <span class="price">$21.99</span>
+        <a href="#reserve" class="btn btn-primary">Order Duo</a>
+      </article>
+
+      <article class="pick-card">
+        <div class="pick-card-img">
+          <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80&auto=format&fit=crop" alt="Family sharing platter of burgers and sides">
+        </div>
+        <h3>Family Feast</h3>
+        <p>Four burgers, loaded fries, onion rings, and a family drink jug.</p>
+        <span class="price">$44.99</span>
+        <a href="#reserve" class="btn btn-outline">Order Feast</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ UPCOMING EVENTS ============ -->
+<section class="section" id="events">
+  <div class="wrap events-wrap">
+    <div class="events-img">
+      <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=900&q=80&auto=format&fit=crop" alt="Guests enjoying live music night at the burger house">
+      <div class="events-badge">
+        <span>AUG</span>
+        <strong>15</strong>
+      </div>
+    </div>
+    <div class="events-copy">
+      <p class="eyebrow">What's cooking</p>
+      <h2>Upcoming Events</h2>
+      <ul class="event-list">
+        <li>
+          <div class="event-date"><span>AUG</span><strong>15</strong></div>
+          <div class="event-info">
+            <h3>Flame &amp; Vinyl Night</h3>
+            <p>Live records spinning on the patio, half‑price beer, and a build‑your‑own burger bar from 6–9pm.</p>
+          </div>
+        </li>
+        <li>
+          <div class="event-date"><span>AUG</span><strong>22</strong></div>
+          <div class="event-info">
+            <h3>Grill Masters Showdown</h3>
+            <p>Our chefs go head‑to‑head creating a new limited burger — you vote, the winner joins the menu.</p>
+          </div>
+        </li>
+        <li>
+          <div class="event-date"><span>SEP</span><strong>03</strong></div>
+          <div class="event-info">
+            <h3>Kids Eat Free Sunday</h3>
+            <p>Every kids' burger meal is on the house with an adult entrée purchase, all day long.</p>
+          </div>
+        </li>
+      </ul>
+      <a href="#reserve" class="btn btn-primary">Reserve a Spot</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROMO BANNER ============ -->
+<section class="promo">
+  <div class="wrap promo-inner">
+    <div class="promo-text">
+      <p class="eyebrow eyebrow-light">Limited time</p>
+      <h2>Get 20% Off Your First Order</h2>
+      <p>Use code <strong>FIRSTBITE</strong> at checkout — fresh buns, faster than you can say "extra pickles."</p>
+    </div>
+    <a href="#menu" class="btn btn-light">Claim Discount</a>
+  </div>
+</section>
+
+<!-- ============ RESERVATION ============ -->
+<section class="section" id="reserve">
+  <div class="wrap reserve-wrap">
+    <div class="reserve-copy">
+      <p class="eyebrow">Dine in</p>
+      <h2>Book Your Table</h2>
+      <p class="section-sub">Save a seat by the grill window — we'll have napkins ready, you'll need them.</p>
+      <ul class="reserve-points">
+        <li>Open daily 11:00 AM – 10:00 PM</li>
+        <li>Walk‑ins welcome, reservations preferred</li>
+        <li>Private booth seating for groups of 6+</li>
+      </ul>
+    </div>
+
+    <form class="reserve-form" id="reserveForm">
+      <div class="form-row">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="Jamie Rivera" required>
+      </div>
+      <div class="form-row form-row-split">
+        <div>
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+      </div>
+      <div class="form-row form-row-split">
+        <div>
+          <label for="guests">Guests</label>
+          <select id="guests" name="guests">
+            <option>1 person</option>
+            <option selected>2 people</option>
+            <option>3 people</option>
+            <option>4 people</option>
+            <option>5+ people</option>
+          </select>
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="(800) 555‑0199" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="notes">Special requests</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Booth seating, allergies, birthday surprise…"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Confirm Reservation</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <a class="logo logo-footer" href="#top">
+        <span class="logo-mark" aria-hidden="true">
+          <span class="bun-top"></span>
+          <span class="patty"></span>
+          <span class="bun-bottom"></span>
+        </span>
+        <span class="logo-text">Smokehouse<em>&amp;</em>Bun</span>
+      </a>
+      <p>Flame‑grilled burgers, hand‑cut fries, and a patio worth lingering on.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Visit</h4>
+      <p>221 Grillhouse Ave<br>Chennai, TN 600001</p>
+      <p><a href="tel:+18005550199">+1 (800) 555‑0199</a></p>
+      <p><a href="mailto:hello@smokehouseandbun.com">hello@smokehouseandbun.com</a></p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Hours</h4>
+      <p>Mon – Fri: 11:00 AM – 10:00 PM</p>
+      <p>Sat – Sun: 10:00 AM – 11:00 PM</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow along</h4>
+      <div class="social-row">
+        <a href="#" aria-label="Instagram" class="social-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 8.2a3.8 3.8 0 100 7.6 3.8 3.8 0 000-7.6zM12 14a2 2 0 110-4 2 2 0 010 4zM16.9 6.1a.9.9 0 100 1.8.9.9 0 000-1.8z"/><path d="M17 2H7a5 5 0 00-5 5v10a5 5 0 005 5h10a5 5 0 005-5V7a5 5 0 00-5-5zm3 15a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10a3 3 0 013 3v10z"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook" class="social-icon">
+          <svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H17V3.7C16.7 3.66 15.7 3.57 14.5 3.57c-2.44 0-4.1 1.49-4.1 4.22V10H7.7v3.1h2.7v8h3.1z"/></svg>
+        </a>
+        <a href="#" aria-label="X" class="social-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 3l7.2 9.6L4.3 21h2.3l5.8-6.9 4.7 6.9H21l-7.5-10L20 3h-2.3l-5.3 6.3L7.4 3H4z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Smokehouse &amp; Bun. All rights reserved.</p>
+    <p>Made with grill marks &amp; good buns.</p>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navList = document.getElementById('navList');
+  navToggle.addEventListener('click', () => {
+    const open = navList.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  navList.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navList.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  document.getElementById('reserveForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const btn = this.querySelector('button[type="submit"]');
+    const original = btn.textContent;
+    btn.textContent = 'Table Reserved ✓';
+    btn.disabled = true;
+    setTimeout(() => { btn.textContent = original; btn.disabled = false; this.reset(); }, 2400);
+  });
+</script>
+
+</body>
+</html>
